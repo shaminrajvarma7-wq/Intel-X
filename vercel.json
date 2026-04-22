@@ -1,9 +1,7 @@
 {
-  "installCommand": "npm install --prefix frontend",
-  "buildCommand": "npm run build --prefix frontend",
-  "devCommand": "npm run dev --prefix frontend",
+  "rootDirectory": "frontend",
   "framework": "nextjs",
-  "outputDirectory": "frontend/.next",
+  "outputDirectory": ".next",
   "functions": {
     "api/index.py": {
       "maxDuration": 60
